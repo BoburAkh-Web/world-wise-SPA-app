@@ -1,30 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
       "cityName": "Berlin",
       "country": "Germany",
       "emoji": "🇩🇪",
@@ -34,7 +10,128 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "cityName": "Arnstein",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2026-09-30T18:04:57.159Z",
+      "notes": "",
+      "position": {
+        "lat": "50.03442814192563",
+        "lng": "10.01126350165677"
+      },
+      "id": "tka5jT1D3mA"
+    },
+    {
+      "cityName": "Arnstein",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2026-09-30T18:04:57.159Z",
+      "notes": "sasa",
+      "position": {
+        "lat": "50.03442814192563",
+        "lng": "10.01126350165677"
+      },
+      "id": "DjgrVx2Ex_E"
+    },
+    {
+      "cityName": "Arnstein",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2026-09-30T18:07:22.629Z",
+      "notes": "",
+      "position": {
+        "lat": "50.03442814192563",
+        "lng": "10.01126350165677"
+      },
+      "id": "IOGl_wo2IWQ"
+    },
+    {
+      "cityName": "Euerdorf",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2026-09-30T18:07:22.629Z",
+      "notes": "",
+      "position": {
+        "lat": "50.15224252060306",
+        "lng": "10.074334312248695"
+      },
+      "id": "i_GqsX71teI"
+    },
+    {
+      "cityName": "Kalininskiy Rayon",
+      "country": "Russian Federation",
+      "emoji": "🇷🇺",
+      "date": "2026-09-30T18:07:22.629Z",
+      "notes": "",
+      "position": {
+        "lat": "56.74534216870838",
+        "lng": "36.18743814478995"
+      },
+      "id": "srYGriB6H3g"
+    },
+    {
+      "cityName": "Sheksninskiy Rayon",
+      "country": "Russian Federation",
+      "emoji": "🇷🇺",
+      "date": "2026-09-30T18:09:35.722Z",
+      "notes": "sasas",
+      "position": {
+        "lat": "59.16829003597942",
+        "lng": "39.01189991043839"
+      },
+      "id": "C3bb7_VVFb8"
+    },
+    {
+      "cityName": "Arnstein",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2026-09-30T18:10:11.278Z",
+      "notes": "sas",
+      "position": {
+        "lat": "49.99701256209463",
+        "lng": "10.001831239082458"
+      },
+      "id": "AKetn8RnOAI"
+    },
+    {
+      "cityName": "Werneck",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2026-09-30T18:17:24.438Z",
+      "notes": "",
+      "position": {
+        "lat": "49.9904704647142",
+        "lng": "10.017425581992205"
+      },
+      "id": "qK9E5OFgXgU"
+    },
+    {
+      "cityName": "Creglingen",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2026-09-30T18:17:35.293Z",
+      "notes": "sasas",
+      "position": {
+        "lat": "49.46875205815286",
+        "lng": "10.075690371110776"
+      },
+      "id": "xNfTC5rEkr8"
+    },
+    {
+      "cityName": "Arnstein",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2026-09-30T18:20:52.450Z",
+      "notes": "bye",
+      "position": {
+        "lat": "49.98630126797428",
+        "lng": "9.996904473775935"
+      },
+      "id": "KEFZxv3LZgA"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
