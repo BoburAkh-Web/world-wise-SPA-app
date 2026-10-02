@@ -4,37 +4,13 @@
       "cityName": "Arnstein",
       "country": "Germany",
       "emoji": "🇩🇪",
-      "date": "2026-09-30T18:04:57.159Z",
+      "date": "2026-10-02T10:57:47.165Z",
       "notes": "",
       "position": {
-        "lat": "50.03442814192563",
-        "lng": "10.01126350165677"
+        "lat": "50.00772147057445",
+        "lng": "9.96837615966797"
       },
-      "id": "tka5jT1D3mA"
-    },
-    {
-      "cityName": "Arnstein",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2026-09-30T18:04:57.159Z",
-      "notes": "sasa",
-      "position": {
-        "lat": "50.03442814192563",
-        "lng": "10.01126350165677"
-      },
-      "id": "DjgrVx2Ex_E"
-    },
-    {
-      "cityName": "Arnstein",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2026-09-30T18:07:22.629Z",
-      "notes": "",
-      "position": {
-        "lat": "50.03442814192563",
-        "lng": "10.01126350165677"
-      },
-      "id": "IOGl_wo2IWQ"
+      "id": "m9k4pQFFBak"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
