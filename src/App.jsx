@@ -16,9 +16,9 @@ import { AuthProvider } from "./contexts/FakeAuthContext";
 function App() {
   return (
     <div>
-      <CitiesProvider>
-        <BrowserRouter>
-          <AuthProvider>
+      <AuthProvider>
+        <CitiesProvider>
+          <BrowserRouter>
             <Routes>
               <Route index element={<Homepage />} />
               <Route path="product" element={<Product />} />
@@ -33,9 +33,9 @@ function App() {
               <Route path="login" element={<Login />} />
               <Route path="*" element={<PageNotFound />} />
             </Routes>
-          </AuthProvider>
-        </BrowserRouter>
-      </CitiesProvider>
+          </BrowserRouter>
+        </CitiesProvider>
+      </AuthProvider>
     </div>
   );
 }

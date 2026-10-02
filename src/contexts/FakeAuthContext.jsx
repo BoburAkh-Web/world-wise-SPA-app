@@ -51,6 +51,7 @@ function useAuth() {
   const context = useContext(AuthContext);
   if (context === undefined)
     throw new Error("AuthContext use outside of AuthProvider");
+  return context;
 }
 
 export { AuthProvider, useAuth };

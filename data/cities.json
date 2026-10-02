@@ -11,6 +11,30 @@
         "lng": "9.96837615966797"
       },
       "id": "m9k4pQFFBak"
+    },
+    {
+      "cityName": "Arnstein",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2026-10-02T16:53:32.166Z",
+      "notes": "",
+      "position": {
+        "lat": "50.00308491644256",
+        "lng": "9.994640350341799"
+      },
+      "id": "CgPWRnqyK54"
+    },
+    {
+      "cityName": "Arnstein",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2026-10-02T16:54:02.109Z",
+      "notes": "",
+      "position": {
+        "lat": "49.9756980505365",
+        "lng": "10.020904541015627"
+      },
+      "id": "H0HprPDQx0s"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -10,14 +10,16 @@ export default function Login() {
   const [password, setPassword] = useState("qwerty");
   const { login, isAuth } = useAuth();
   const navigate = useNavigate();
-  useEffect(() => {
-    login();
-    if (isAuth) return navigate("/app");
-  }, []);
-  function handleSubmit() {
+
+  function handleSubmit(e) {
     e.preventDefault();
-    login();
+
+    if (email && login) login(email, password);
   }
+
+  useEffect(() => {
+    if (isAuth) return navigate("/app");
+  }, [isAuth, navigate]);
 
   return (
     <main className={styles.login}>
@@ -43,7 +45,7 @@ export default function Login() {
           />
         </div>
         <div>
-          <button>Login</button>
+          <button className={styles.btn}>Login</button>
         </div>
       </form>
     </main>
