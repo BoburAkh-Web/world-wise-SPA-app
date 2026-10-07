@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "./Login.module.css";
 import PageNav from "../components/PageNav";
 import { useAuth } from "../contexts/FakeAuthContext";
-import { useNavigate } from "react-router-dom";
+import { Link, replace, useNavigate } from "react-router-dom";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
@@ -18,7 +18,7 @@ export default function Login() {
   }
 
   useEffect(() => {
-    if (isAuth) return navigate("/app");
+    if (isAuth) return navigate("/app", { replace: true });
   }, [isAuth, navigate]);
 
   return (
@@ -45,7 +45,7 @@ export default function Login() {
           />
         </div>
         <div>
-          <button className={styles.btn}>Login</button>
+          <button className={styles.primary}>Login</button>
         </div>
       </form>
     </main>

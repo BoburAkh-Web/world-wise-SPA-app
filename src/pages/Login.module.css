@@ -4,6 +4,18 @@
   background-color: var(--color-dark--1);
   min-height: calc(100vh - 5rem);
 }
+.primary {
+  font-weight: 700;
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--1);
+  text-transform: uppercase;
+  padding: 0.8rem 1.6rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 .form {
   background-color: var(--color-dark--2);
