@@ -10,13 +10,6 @@ import ProtectedRoute from "./pages/ProtectedRoute";
 import { lazy, Suspense } from "react";
 import SpinnerFullPage from "./components/SpinnerFullPage";
 
-// import Product from "./pages/Product";
-// import Pricing from "./pages/Pricing";
-// import AppLayout from "./pages/AppLayout";
-// import Homepage from "./pages/Homepage";
-// import PageNotFound from "./pages/PageNotFound";
-// import Login from "./pages/Login";
-
 const Product = lazy(() => import("./pages/Product"));
 const Pricing = lazy(() => import("./pages/Pricing"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
